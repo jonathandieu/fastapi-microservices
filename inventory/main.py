@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from redis_om import get_redis_connection, HashModel
-from fastapi.middleware.cors import CORDSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
